@@ -1,0 +1,29 @@
+{
+  "minecraft:item" : {
+    "events" : {
+      "bb:on_use" : {
+
+      }
+    },
+    "components" : {
+      "minecraft:icon" : {
+        "texture" : "bb:ultimate_fortress"
+      },
+      "minecraft:max_stack_size" : 1,
+      "minecraft:hand_equipped" : false,
+      "minecraft:foil" : false,
+      "minecraft:on_use" : {
+        "on_use" : {
+          "event" : "bb:ultimate_fortress",
+          "target" : "self",
+	  "function" : "ultimate_fortress"
+        }
+      }
+    },
+    "description" : {
+      "category" : "equipment",
+      "identifier" : "bb:ultimate_fortress"
+    }
+  },
+  "format_version" : "1.16.100"
+}

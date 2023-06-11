@@ -1,0 +1,27 @@
+{
+  "minecraft:recipe_shaped" : {
+    "result" : {
+      "count" : 1,
+      "data" : 0,
+      "item" : "cc:counter_sink"
+    },
+    "tags" : [
+      "crafting_table"
+    ],
+    "key" : {
+      "A" : {
+        "data" : 0,
+        "item" : "cc:crafting_clay"
+      }
+    },
+    "pattern" : [
+      "A  ",
+      "   ",
+      "   "
+    ],
+    "description" : {
+      "identifier" : "cc:counter_sink"
+    }
+  },
+  "format_version" : "1.19"
+}

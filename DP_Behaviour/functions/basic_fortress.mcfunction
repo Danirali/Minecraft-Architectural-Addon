@@ -1,0 +1,1 @@
+structure load "basic_fortress" ~ ~ ~ 0_degrees

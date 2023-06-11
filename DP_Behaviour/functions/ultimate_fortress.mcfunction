@@ -1,0 +1,1 @@
+structure load "ultimate_fortress" ~ ~-4 ~ 270_degrees

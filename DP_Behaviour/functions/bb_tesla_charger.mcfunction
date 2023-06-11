@@ -1,0 +1,1 @@
+give @p bb:tesla_charger
