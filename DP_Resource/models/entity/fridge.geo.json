@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fridge",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 30, 16],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [16, 32]},
+								"east": {"uv": [7, 3], "uv_size": [16, 32]},
+								"south": {"uv": [16, 8], "uv_size": [16, 32]},
+								"west": {"uv": [32, 16], "uv_size": [16, 32]},
+								"up": {"uv": [16, 0], "uv_size": [16, 16]},
+								"down": {"uv": [32, 16], "uv_size": [16, -16]}
+							}
+						},
+						{
+							"origin": [-7, 24, -9],
+							"size": [1, 1, 1],
+							"uv": {
+								"north": {"uv": [0, 6], "uv_size": [0, -1]},
+								"east": {"uv": [0, 6], "uv_size": [0, -1]},
+								"south": {"uv": [0, 6], "uv_size": [0, -1]},
+								"west": {"uv": [0, 6], "uv_size": [0, -1]},
+								"up": {"uv": [0, 5], "uv_size": [0, 1]},
+								"down": {"uv": [0, 5], "uv_size": [0, 1]}
+							}
+						},
+						{
+							"origin": [-7, 6, -9],
+							"size": [1, 1, 1],
+							"uv": {
+								"north": {"uv": [0, 9], "uv_size": [0, 0]},
+								"east": {"uv": [0, 9], "uv_size": [0, 0]},
+								"south": {"uv": [0, 9], "uv_size": [0, 0]},
+								"west": {"uv": [0, 9], "uv_size": [0, 0]},
+								"up": {"uv": [0, 9], "uv_size": [0, 0]},
+								"down": {"uv": [0, 9], "uv_size": [0, 0]}
+							}
+						},
+						{
+							"origin": [-7, 6, -10],
+							"size": [1, 19, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 16]},
+								"east": {"uv": [0, 0], "uv_size": [0, 16]},
+								"south": {"uv": [0, 0], "uv_size": [0, 16]},
+								"west": {"uv": [0, 0], "uv_size": [0, 16]},
+								"up": {"uv": [0, 16], "uv_size": [0, -16]},
+								"down": {"uv": [0, 16], "uv_size": [0, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

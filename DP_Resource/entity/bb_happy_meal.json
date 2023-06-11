@@ -1,0 +1,36 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.sheep"
+      ],
+      "materials" : {
+        "default" : "sheep"
+      },
+      "geometry" : {
+        "default" : "geometry.happy_meal",
+        "sheared" : "geometry.happy_meal"
+      },
+      "spawn_egg" : {
+        "texture" : "bb:happy_meal",
+        "texture_index" : 0
+      },
+      "identifier" : "bb:happy_meal",
+      "scripts" : {
+        "animate" : [
+          "setup",
+          "look_at_target",
+          "move",
+          {
+            "baby_transform" : "query.is_baby"
+          }
+        ]
+      },
+      "min_engine_version" : "1.8.0",
+      "textures" : {
+        "default" : "textures\/entity\/blockbudget\/bb_happy_meal"
+      }
+    }
+  },
+  "format_version" : "1.10.0"
+}

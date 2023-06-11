@@ -1,0 +1,21 @@
+{
+  "minecraft:item" : {
+    "components" : {
+      "minecraft:icon" : {
+        "texture" : "bb:ultimate_fortress"
+      },
+      "minecraft:display_name" : {
+
+      },
+      "minecraft:creative_category" : {
+        "parent" : "itemGroup.name.items"
+      },
+      "minecraft:render_offsets" : "tools"
+    },
+    "description" : {
+      "category" : "items",
+      "identifier" : "bb:ultimate_fortress"
+    }
+  },
+  "format_version" : "1.16.100"
+}

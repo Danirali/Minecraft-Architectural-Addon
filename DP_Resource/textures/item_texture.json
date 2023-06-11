@@ -1,0 +1,33 @@
+{
+  "resource_pack_name" : "BlockBudget[Resource]",
+  "texture_name" : "atlas.items",
+  "texture_data" : {
+    "bb:clay" : {
+      "textures" : "textures\/items\/blockbudget\/bb_crafting_clay"
+    },
+    "bb:ultimate_fortress" : {
+      "textures" : "textures\/items\/blockbudget\/bb_base_icon"
+    },
+    "bb:iphone_se_2" : {
+      "textures" : "textures\/items\/blockbudget\/bb_iphone_se_2"
+    },
+    "bb:airpods" : {
+      "textures" : "textures\/items\/blockbudget\/bb_airpods"
+    },
+    "bb:ipad_pro" : {
+      "textures" : "textures\/items\/blockbudget\/bb_ipad_pro"
+    },
+    "bb:apple_imac" : {
+      "textures" : "textures\/items\/blockbudget\/bb_apple_imac"
+    },
+    "bb:apple_tv" : {
+      "textures" : "textures\/items\/blockbudget\/bb_apple_tv"
+    },
+    "bb:hand_sanitiser" : {
+      "textures" : "textures\/items\/blockbudget\/bb_hand_sanitiser"
+    },
+    "bb:pool_floaty" : {
+      "textures" : "textures\/items\/blockbudget\/bb_pool_floaty"
+    }
+  }
+}
