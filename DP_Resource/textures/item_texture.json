@@ -28,6 +28,36 @@
     },
     "bb:pool_floaty" : {
       "textures" : "textures\/items\/blockbudget\/bb_pool_floaty"
+    },
+    "bb:apple_watch" : {
+      "textures" : "textures\/items\/blockbudget\/bb_apple_watch"
+    },
+    "bb:bandages" : {
+      "textures" : "textures\/items\/blockbudget\/bb_doctor_bandages"
+    },
+    "bb:doctor_scalpel" : {
+      "textures" : "textures\/items\/blockbudget\/bb_doctor_scalpel"
+    },
+    "bb:doctor_tweezers" : {
+      "textures" : "textures\/items\/blockbudget\/bb_doctor_tweezers"
+    },
+    "bb:doctor_stethoscope" : {
+      "textures" : "textures\/items\/blockbudget\/bb_doctor_stethoscope"
+    },
+    "bb:medicine" : {
+      "textures" : "textures\/items\/blockbudget\/bb_medicine"
+    },
+    "bb:medkit" : {
+      "textures" : "textures\/items\/blockbudget\/bb_medkit"
+    },
+    "bb:pizza" : {
+      "textures" : "textures\/items\/blockbudget\/bb_pizza"
+    },
+    "bb:pizza_box" : {
+      "textures" : "textures\/items\/blockbudget\/bb_pizza_box"
+    },    
+    "bb:rubbish_bin" : {
+      "textures" : "textures\/items\/blockbudget\/bb_rubbish_bin"
     }
   }
 }

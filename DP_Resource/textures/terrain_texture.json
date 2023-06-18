@@ -71,6 +71,12 @@
     },
     "bb:perfume_texture" : {
       "textures" : "textures\/blocks\/bb_perfume_texture"
+    },
+    "bb:apple_watch" : {
+      "textures" : "textures\/blocks\/bb_apple_watch"
+    },
+    "bb:pizza_box" : {
+      "textures" : "textures\/blocks\/bb_pizza_box"
     }
   },
   "num_mip_levels" : 4,
