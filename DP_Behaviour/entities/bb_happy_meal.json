@@ -266,7 +266,7 @@
     "description" : {
       "is_spawnable" : true,
       "is_summonable" : true,
-      "identifier" : "cc:happy_meal",
+      "identifier" : "bb:happy_meal",
       "is_experimental" : false
     },
     "events" : {
@@ -456,5 +456,5 @@
       }
     }
   },
-  "format_version" : "1.8.0"
+  "format_version" : "1.16.100"
 }
