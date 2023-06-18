@@ -1,1 +1,1 @@
-structure load "basic_fortress" ~ ~ ~ 0_degrees
+structure load basic_structure ~ ~ ~ 0_degrees
