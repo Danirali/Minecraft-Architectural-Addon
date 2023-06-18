@@ -1,0 +1,13 @@
+{
+  "minecraft:item" : {
+    "components" : {
+      "minecraft:icon" : "bb_medkit",
+      "minecraft:render_offsets" : "miscellaneous"
+    },
+    "description" : {
+      "category" : "Equipment",
+      "identifier" : "bb:medkit"
+    }
+  },
+  "format_version" : "1.16.100"
+}

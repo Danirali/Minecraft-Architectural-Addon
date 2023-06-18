@@ -1,0 +1,19 @@
+{
+  "minecraft:item" : {
+    "components" : {
+      "minecraft:icon" : {
+	"texture" : "bb:pizza"
+      },
+      "minecraft:render_offsets" : {
+        "default" : "apple"
+      },
+      "minecraft:use_animation" : "eat"
+      }    
+  },
+    "description" : {
+      "category" : "Nature",
+      "identifier" : "bb:pizza"
+    }
+  },
+  "format_version" : "1.16.100"
+}
