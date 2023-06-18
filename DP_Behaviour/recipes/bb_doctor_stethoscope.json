@@ -2,30 +2,29 @@
   "minecraft:recipe_shaped" : {
     "result" : {
       "count" : 1,
-      "data" : 0,
-      "item" : "bb:locker_block"
+      "item" : "bb:doctor_stethoscope"
     },
     "tags" : [
       "crafting_table"
     ],
     "key" : {
       "A" : {
-        "item" : "minecraft:iron_block"
+        "item" : "minecraft:iron_nugget"
       },
       "B" : {
-        "item" : "minecraft:iron_bars"
+        "item" : "minecraft:string"
       },
       "C" : {
-        "item" : "minecraft:lever"
+        "item" : "minecraft:iron_block"
       }
     },
     "pattern" : [
-      "AAA",
-      "ABA",
-      "ACA"
+      " A ",
+      "AB ",
+      "  C"
     ],
     "description" : {
-      "identifier" : "bb:locker"
+      "identifier" : "bb:doctor_stethoscope"
     }
   },
   "format_version" : "1.19"

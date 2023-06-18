@@ -2,30 +2,26 @@
   "minecraft:recipe_shaped" : {
     "result" : {
       "count" : 1,
-      "data" : 0,
-      "item" : "bb:locker_block"
+      "item" : "bb:medicine"
     },
     "tags" : [
       "crafting_table"
     ],
     "key" : {
       "A" : {
-        "item" : "minecraft:iron_block"
+        "item" : "bb:medkit"
       },
       "B" : {
-        "item" : "minecraft:iron_bars"
-      },
-      "C" : {
-        "item" : "minecraft:lever"
+        "item" : "minecraft:potion"
       }
     },
     "pattern" : [
-      "AAA",
-      "ABA",
-      "ACA"
+      "   ",
+      " A ",
+      " B "
     ],
     "description" : {
-      "identifier" : "bb:locker"
+      "identifier" : "bb:medicine"
     }
   },
   "format_version" : "1.19"

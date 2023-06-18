@@ -2,30 +2,26 @@
   "minecraft:recipe_shaped" : {
     "result" : {
       "count" : 1,
-      "data" : 0,
-      "item" : "bb:locker_block"
+      "item" : "bb:doctor_tweezers"
     },
     "tags" : [
       "crafting_table"
     ],
     "key" : {
       "A" : {
-        "item" : "minecraft:iron_block"
+        "item" : "minecraft:iron_ingot"
       },
       "B" : {
-        "item" : "minecraft:iron_bars"
-      },
-      "C" : {
-        "item" : "minecraft:lever"
+        "item" : "bb:doctor_scalpel"
       }
     },
     "pattern" : [
-      "AAA",
-      "ABA",
-      "ACA"
+      "  A",
+      " A ",
+      "B  "
     ],
     "description" : {
-      "identifier" : "bb:locker"
+      "identifier" : "bb:doctor_tweezers"
     }
   },
   "format_version" : "1.19"

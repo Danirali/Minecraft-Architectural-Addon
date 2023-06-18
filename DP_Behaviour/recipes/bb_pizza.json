@@ -1,31 +1,30 @@
 {
   "minecraft:recipe_shaped" : {
     "result" : {
-      "count" : 1,
-      "data" : 0,
-      "item" : "bb:locker_block"
+      "count" : 5,
+      "item" : "bb:pizza"
     },
     "tags" : [
       "crafting_table"
     ],
     "key" : {
       "A" : {
-        "item" : "minecraft:iron_block"
+        "item" : "minecraft:bread"
       },
       "B" : {
-        "item" : "minecraft:iron_bars"
+        "item" : "minecraft:gold_ingot"
       },
       "C" : {
-        "item" : "minecraft:lever"
+        "item" : "minecraft:redstone"
       }
     },
     "pattern" : [
-      "AAA",
-      "ABA",
-      "ACA"
+      " AA",
+      "BBA",
+      "CB "
     ],
     "description" : {
-      "identifier" : "bb:locker"
+      "identifier" : "bb:pizza"
     }
   },
   "format_version" : "1.19"
