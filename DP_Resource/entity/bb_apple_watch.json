@@ -2,40 +2,40 @@
   "minecraft:client_entity" : {
     "description" : {
       "render_controllers" : [
-        "controller.render.sheep"
+        "controller.render.pig"
       ],
       "materials" : {
-        "default" : "sheep"
+        "default" : "pig"
       },
       "geometry" : {
-        "default" : "geometry.happy_meal",
-        "sheared" : "geometry.happy_meal"
+        "default" : "geometry.apple_watch"
       },
       "animations" : {
         "walk" : "animation.quadruped.walk",
         "look_at_target" : "animation.common.look_at_target",
-        "grazing" : "animation.sheep.grazing",
-        "baby_transform" : "animation.sheep.baby_transform",
-        "setup" : "animation.sheep.setup",
-        "move" : "controller.animation.sheep.move"
+        "baby_transform" : "animation.pig.baby_transform",
+        "setup" : "animation.pig.setup"
       },
       "spawn_egg" : {
-        "texture" : "bb:happy_meal",
+        "texture" : "bb:apple_watch",
         "texture_index" : 0
       },
-      "identifier" : "bb:happy_meal",
+      "identifier" : "bb:apple_watch",
       "scripts" : {
         "animate" : [
           "setup",
+          {
+            "walk" : "query.modified_move_speed"
+          },
           "look_at_target",
-          "move",
           {
             "baby_transform" : "query.is_baby"
           }
         ]
       },
       "textures" : {
-        "default" : "textures\/entity\/blockbudget\/bb_happy_meal"
+        "default" : "textures\/entity\/blockbudget\/bb_apple_watch",
+        "saddled" : "textures\/entity\/blockbudget\/bb_apple_watch"
       }
     }
   },
