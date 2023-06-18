@@ -1,1 +1,0 @@
-give @p bb:gaming_chair

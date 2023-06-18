@@ -1,1 +1,0 @@
-give @p bb:cutting_board

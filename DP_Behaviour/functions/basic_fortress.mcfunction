@@ -1,1 +1,0 @@
-structure load basic_structure ~ ~ ~ 0_degrees

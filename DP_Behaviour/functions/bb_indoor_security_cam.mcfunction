@@ -1,1 +1,0 @@
-give @p bb:indoor_security_cam
