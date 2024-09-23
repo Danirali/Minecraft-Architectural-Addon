@@ -1,0 +1,100 @@
+
+{
+	"format_version": "1.21.10",
+	"bb:fridge": {
+		"sound": "anvil",
+		"textures": "bb:fridge"
+	},
+	"bb:cutting_board": {
+		"sound": "wood",
+		"textures": "bb:cutting_board"
+	},
+	"bb:counter": {
+		"sound": "stone",
+		"textures": "bb:counter"
+	},
+	"bb:stove": {
+		"sound": "metal",
+		"textures": "bb:stove"
+	},
+	"bb:toaster": {
+		"sound": "metal",
+		"textures": "bb:toaster"
+	},
+	"bb:counter_sink": {
+		"sound": "stone",
+		"textures": "bb:counter_sink"
+	},
+	"bb:oven": {
+		"sound": "glass",
+		"textures": "bb:oven"
+	},
+	"bb:blender": {
+		"sound": "glass",
+		"textures": "bb:blender"
+	},
+	"bb:sofa": {
+		"sound": "wood",
+		"textures": "bb:sofa"
+	},
+	"bb:lamp": {
+		"sound": "stone",
+		"textures": "bb:lamp"
+	},
+        "bb:pc_monitor": {
+		"sound": "glass",
+		"textures": "bb:pc_monitor"
+	},
+        "bb:router": {
+		"sound": "metal",
+		"textures": "bb:router"
+	},
+	 "bb:pc": {
+		"sound": "metal",
+		"textures": "bb:pc"
+	},
+	"bb:aircon": {
+		"sound": "metal",
+		"textures": "bb:aircon"
+	},
+	"bb:gaming_chair": {
+		"sound": "metal",
+		"textures": "bb:gaming_chair"
+	},
+        "bb:indoor_security_cam": {
+		"sound": "metal",
+		"textures": "bb:indoor_security_cam"
+	},
+	"bb:atm": {
+		"sound": "metal",
+		"textures": "bb:atm"
+	},
+	"bb:locker": {
+		"sound": "stone",
+		"textures": "bb:locker"
+	},
+	"bb:tesla_charger": {
+		"sound": "metal",
+		"textures": "bb:tesla_charger"
+	},
+	"bb:hand_sanitiser": {
+		"sound": "glass",
+		"textures": "bb:hand_sanitiser"
+	},
+	"bb:electric_charger": {
+		"sound": "bell",
+		"textures": "bb:electric_charger"
+	},
+	"bb:tv": {
+		"sound": "glass",
+		"textures": "bb:tv"
+	},
+	"bb:bottle_essence": {
+		"sound": "glass",
+		"textures": "bb:perfume_texture"
+	},
+        "bb:cabinet": {
+		"sound": "glass",
+		"textures": "bb:cabinet"
+	}                                                        
+}
