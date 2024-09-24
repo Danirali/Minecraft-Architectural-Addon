@@ -1,0 +1,11 @@
+{
+  "texture_data" : {
+    "string_lights" : {
+      "textures" : "textures\/blocks\/string_lights"
+    }
+  },
+  "num_mip_levels" : 4,
+  "resource_pack_name" : "BlockBudget[Resource]",
+  "texture_name" : "atlas.terrain",
+  "padding" : 8
+}

@@ -1,0 +1,44 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.pig"
+      ],
+      "materials" : {
+        "default" : "pig"
+      },
+      "geometry" : {
+        "default" : "geometry.iphone_se_2"
+      },
+      "animations" : {
+        "walk" : "animation.quadruped.walk",
+        "look_at_target" : "animation.common.look_at_target",
+        "baby_transform" : "animation.pig.baby_transform",
+        "setup" : "animation.pig.setup"
+      },
+      "spawn_egg" : {
+        "texture" : "bb:iphone_se_2",
+        "texture_index" : 0
+      },
+      "identifier" : "bb:iphone_se_2",
+      "scripts" : {
+        "animate" : [
+          "setup",
+          {
+            "walk" : "query.modified_move_speed"
+          },
+          "look_at_target",
+          {
+            "baby_transform" : "query.is_baby"
+          }
+        ]
+      },
+      "min_engine_version" : "1.8.0",
+      "textures" : {
+        "default" : "textures\/entity\/blockbudget\/bb_iphone_se_2",
+        "saddled" : "textures\/entity\/blockbudget\/bb_iphone_se_2"
+      }
+    }
+  },
+  "format_version" : "1.10.0"
+}

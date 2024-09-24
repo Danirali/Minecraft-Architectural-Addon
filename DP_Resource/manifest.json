@@ -1,0 +1,40 @@
+{
+  "format_version" : 2,
+  "header" : {
+    "version" : [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version" : [
+      1,
+      16,
+      0
+    ],
+    "description" : "Adds decor and furniture to Minecraft Bedrock\nMade by §6BlockBudget Studios",
+    "name" : "Decor Pack [TEXTURE]",
+    "uuid" : "056AD4EE-6C56-4BD0-B385-1D4B7935B763"
+  },
+  "dependencies" : [
+    {
+      "version" : [
+        0,
+        0,
+        1
+      ],
+      "uuid" : "A635EACF-5CCE-4475-BB24-71D326A7D829"
+    }
+  ],
+  "modules" : [
+    {
+      "version" : [
+        0,
+        0,
+        1
+      ],
+      "description" : "Example vanilla resource pack",
+      "type" : "resources",
+      "uuid" : "E76AB6DD-D86E-4734-A33F-3CE4853C4F0E"
+    }
+  ]
+}
