@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bb:aircon",
+            "menu_category": {
+                "category": "Construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.aircon",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 8
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5
+            },
+            "minecraft:map_color": "#FFFFFF",
+            "tag:pickaxe_mine": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:minecraft:stone_tier_destructible": {}
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "minecraft:recipe_shaped" : {
+    "result" : {
+      "count" : 1,
+      "data" : 0,
+      "item" : "bb:string_lights"
+    },
+    "tags" : [
+      "crafting_table"
+    ],
+    "key" : {
+      "A" : {
+        "data" : 0,
+        "item" : "minecraft:stone"
+      },
+      "B" : {
+        "data" : 0,
+        "item" : "minecraft:glowstone"
+      }
+    },
+    "pattern" : [
+      "   ",
+      "AAA",
+      " B "
+    ],
+    "description" : {
+      "identifier" : "bb:string_lights"
+    }
+  },
+  "format_version" : "1.21.30"
+}
